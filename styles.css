@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light sky blue background */
+}
+
+header {
+    background: #03a9f4; /* Sky blue */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+section {
+    background: #ffffff; /* White */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3, h4 {
+    color: #0277bd; /* Darker sky blue */
+}
+
+#search-bar {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #03a9f4; /* Sky blue border */
+    border-radius: 5px;
+}
+
+#filter-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #03a9f4; /* Sky blue */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0288d1; /* Darker shade on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #03a9f4; /* Sky blue */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
