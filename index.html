@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Network - E-Cell DCRUSTM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the E-Cell DCRUSTM Alumni Network!</h1>
+        <p>Join our thriving community of alumni who are making a difference in various industries.</p>
+    </header>
 
+    <section id="alumni-directory">
+        <h2>Alumni Directory</h2>
+        <input type="text" placeholder="Search by name, industry, or graduation year" id="search-bar">
+        <div id="filter-options">
+            <label for="industry">Industry:</label>
+            <select id="industry">
+                <option value="">Select</option>
+                <option value="tech">Tech</option>
+                <option value="finance">Finance</option>
+                <option value="marketing">Marketing</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <label for="grad-year">Graduation Year:</label>
+            <select id="grad-year">
+                <option value="">Select</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+        <div id="alumni-profiles">
+            <div class="alumni-profile">
+                <h3>John Doe</h3>
+                <p>Graduation Year: 2021</p>
+                <p>Current Position: Software Engineer at XYZ Corp</p>
+                <p>Industry: Tech</p>
+                <p>Bio: A brief overview of John’s journey and achievements.</p>
+                <button>Connect</button>
+            </div>
+            <!-- Repeat for more alumni -->
+        </div>
+    </section>
+
+    <section id="networking-opportunities">
+        <h2>Networking Opportunities</h2>
+        <h3>Upcoming Events</h3>
+        <div class="event">
+            <h4>Networking Event</h4>
+            <p>Date: DD/MM/YYYY</p>
+            <p>Join us for our next networking event with alumni.</p>
+            <button>Register</button>
+        </div>
+        <h3>Mentorship Program</h3>
+        <p><button>Join as a Mentor</button></p>
+        <p><button>Request a Mentor</button></p>
+    </section>
+
+    <section id="success-stories">
+        <h2>Success Stories</h2>
+        <div class="featured-alumni">
+            <h3>Featured Alumni: Jane Smith</h3>
+            <p>Current Position: Founder of ABC Startup</p>
+            <p>Story Summary: A brief summary of Jane’s journey and key insights.</p>
+            <button>Read More</button>
+        </div>
+        <!-- Repeat for more featured alumni -->
+    </section>
+
+    <section id="community-forum">
+        <h2>Community Forum</h2>
+        <p>Engage in discussions, ask questions, and share insights.</p>
+        <button>Create New Topic</button>
+        <h3>Popular Topics</h3>
+        <ul>
+            <li>Topic 1</li>
+            <li>Topic 2</li>
+            <!-- Add more topics -->
+        </ul>
+    </section>
+
+    <section id="resources-opportunities">
+        <h2>Resources and Opportunities</h2>
+        <h3>Current Opportunities</h3>
+        <ul>
+            <li>Job Title at Company | Location | <button>Apply</button></li>
+            <!-- Repeat for more job listings -->
+        </ul>
+        <h3>Upcoming Workshops/Webinars</h3>
+        <div class="event">
+            <h4>Workshop Title</h4>
+            <p>Date: DD/MM/YYYY</p>
+            <button>Register</button>
+        </div>
+        <!-- Repeat for more workshops/webinars -->
+    </section>
+
+    <section id="stay-connected">
+        <h2>Stay Connected</h2>
+        <p>Sign up to receive updates about alumni events and opportunities.</p>
+        <input type="email" placeholder="Enter your email" id="email">
+        <button>Subscribe</button>
+        <h3>Follow Us on Social Media</h3>
+        <p>
+            <a href="#">LinkedIn</a> | 
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <p>Help us improve our alumni network by sharing your thoughts.</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Feedback" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 E-Cell DCRUSTM. All rights reserved.</p>
+    </footer>
+</body>
+</html>
