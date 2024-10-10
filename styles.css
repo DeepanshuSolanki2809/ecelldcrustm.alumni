@@ -1,63 +1,76 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    background-color: #e0f7fa; /* Light sky blue background */
 }
 
 header {
-    background: #03a9f4; /* Sky blue */
-    color: #fff;
-    padding: 20px 0;
+    background-color: #004c8c;
+    padding: 1rem;
+    color: white;
     text-align: center;
 }
 
-section {
-    background: #ffffff; /* White */
-    margin: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-h2, h3, h4 {
-    color: #0277bd; /* Darker sky blue */
+header nav ul li {
+    display: inline;
+    margin-right: 1rem;
 }
 
-#search-bar {
-    padding: 10px;
-    width: 100%;
-    margin-bottom: 10px;
-    border: 1px solid #03a9f4; /* Sky blue border */
-    border-radius: 5px;
-}
-
-#filter-options {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-button {
-    background: #03a9f4; /* Sky blue */
+header nav ul li a {
     color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
+    text-decoration: none;
+}
+
+#hero {
+    background-color: #004c8c;
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+#hero .cta-buttons {
+    margin-top: 2rem;
+}
+
+.btn-primary {
+    background-color: #ff6600;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
     border-radius: 5px;
 }
 
-button:hover {
-    background: #0288d1; /* Darker shade on hover */
+.btn-secondary {
+    background-color: #004c8c;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-left: 1rem;
+}
+
+#statistics {
+    padding: 2rem;
+    text-align: center;
+    background-color: #e0f7fa;
+}
+
+#testimonials {
+    padding: 2rem;
+    text-align: center;
 }
 
 footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #03a9f4; /* Sky blue */
+    padding: 1rem;
+    background-color: #004c8c;
     color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    text-align: center;
 }
